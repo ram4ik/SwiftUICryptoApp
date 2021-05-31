@@ -19,6 +19,7 @@
 		95A60C6A2664B3DA00EAD090 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A60C692664B3DA00EAD090 /* CoinRowView.swift */; };
 		95A60C6C2664B44400EAD090 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A60C6B2664B44400EAD090 /* PreviewProvider.swift */; };
 		95A60C6E2664B83400EAD090 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A60C6D2664B83400EAD090 /* Double.swift */; };
+		95A60C702664DBA000EAD090 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A60C6F2664DBA000EAD090 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		95A60C692664B3DA00EAD090 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		95A60C6B2664B44400EAD090 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		95A60C6D2664B83400EAD090 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		95A60C6F2664DBA000EAD090 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewModel.swift; path = SwiftUICryptoApp/Extensions/HomeViewModel.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 		1DAA2BB5265EB80700B7CF03 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				95A60C6F2664DBA000EAD090 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95A60C6A2664B3DA00EAD090 /* CoinRowView.swift in Sources */,
+				95A60C702664DBA000EAD090 /* HomeViewModel.swift in Sources */,
 				1D392D4D265D725300C93AB2 /* ContentView.swift in Sources */,
 				1DAA2BB7265EB82000B7CF03 /* HomeView.swift in Sources */,
 				1D392D4B265D725300C93AB2 /* SwiftUICryptoAppApp.swift in Sources */,
