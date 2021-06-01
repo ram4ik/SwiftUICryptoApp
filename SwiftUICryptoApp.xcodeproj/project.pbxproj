@@ -21,6 +21,7 @@
 		95A60C6E2664B83400EAD090 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A60C6D2664B83400EAD090 /* Double.swift */; };
 		95A60C702664DBA000EAD090 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A60C6F2664DBA000EAD090 /* HomeViewModel.swift */; };
 		95A60C732664E34B00EAD090 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A60C722664E34B00EAD090 /* CoinDataService.swift */; };
+		95A60C76266616B200EAD090 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A60C75266616B200EAD090 /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		95A60C6D2664B83400EAD090 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		95A60C6F2664DBA000EAD090 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewModel.swift; path = SwiftUICryptoApp/Extensions/HomeViewModel.swift; sourceTree = SOURCE_ROOT; };
 		95A60C722664E34B00EAD090 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
+		95A60C75266616B200EAD090 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		1D392D49265D725300C93AB2 /* SwiftUICryptoApp */ = {
 			isa = PBXGroup;
 			children = (
+				95A60C742666167B00EAD090 /* Utilities */,
 				95A60C712664E31F00EAD090 /* Services */,
 				1D392D59265D75B800C93AB2 /* Extensions */,
 				955E29E22660137F00F7291C /* Models */,
@@ -171,6 +174,14 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		95A60C742666167B00EAD090 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				95A60C75266616B200EAD090 /* NetworkingManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -248,6 +259,7 @@
 				1D392D4B265D725300C93AB2 /* SwiftUICryptoAppApp.swift in Sources */,
 				1DAA2BBB265EB93800B7CF03 /* CircleButtonView.swift in Sources */,
 				1D392D5B265D75CA00C93AB2 /* Color.swift in Sources */,
+				95A60C76266616B200EAD090 /* NetworkingManager.swift in Sources */,
 				1DAA2BBD265EBD9900B7CF03 /* CircleButtonAnimationView.swift in Sources */,
 				95A60C6C2664B44400EAD090 /* PreviewProvider.swift in Sources */,
 				95A60C6E2664B83400EAD090 /* Double.swift in Sources */,
