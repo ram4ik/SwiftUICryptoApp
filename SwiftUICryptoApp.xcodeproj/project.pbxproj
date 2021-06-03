@@ -25,6 +25,7 @@
 		95A60C7926675D9000EAD090 /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A60C7826675D9000EAD090 /* CoinImageView.swift */; };
 		95A60C7B26675F0500EAD090 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A60C7A26675F0500EAD090 /* CoinImageService.swift */; };
 		95A60C7D266760F300EAD090 /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A60C7C266760F300EAD090 /* CoinImageViewModel.swift */; };
+		95A60C7F2668AE0C00EAD090 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A60C7E2668AE0C00EAD090 /* LocalFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		95A60C7826675D9000EAD090 /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
 		95A60C7A26675F0500EAD090 /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 		95A60C7C266760F300EAD090 /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
+		95A60C7E2668AE0C00EAD090 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				95A60C75266616B200EAD090 /* NetworkingManager.swift */,
+				95A60C7E2668AE0C00EAD090 /* LocalFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				95A60C6A2664B3DA00EAD090 /* CoinRowView.swift in Sources */,
 				95A60C702664DBA000EAD090 /* HomeViewModel.swift in Sources */,
 				1D392D4D265D725300C93AB2 /* ContentView.swift in Sources */,
+				95A60C7F2668AE0C00EAD090 /* LocalFileManager.swift in Sources */,
 				1DAA2BB7265EB82000B7CF03 /* HomeView.swift in Sources */,
 				95A60C7926675D9000EAD090 /* CoinImageView.swift in Sources */,
 				1D392D4B265D725300C93AB2 /* SwiftUICryptoAppApp.swift in Sources */,
