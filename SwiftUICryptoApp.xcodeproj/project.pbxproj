@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D1E1493266D41FF008766E5 /* MarketDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E1492266D41FF008766E5 /* MarketDataModel.swift */; };
+		1D1E1495266D44CE008766E5 /* MarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E1494266D44CE008766E5 /* MarketDataService.swift */; };
 		1D392D4B265D725300C93AB2 /* SwiftUICryptoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D392D4A265D725300C93AB2 /* SwiftUICryptoAppApp.swift */; };
 		1D392D4D265D725300C93AB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D392D4C265D725300C93AB2 /* ContentView.swift */; };
 		1D392D4F265D725600C93AB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D392D4E265D725600C93AB2 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D1E1492266D41FF008766E5 /* MarketDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataModel.swift; sourceTree = "<group>"; };
+		1D1E1494266D44CE008766E5 /* MarketDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataService.swift; sourceTree = "<group>"; };
 		1D392D47265D725300C93AB2 /* SwiftUICryptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICryptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D392D4A265D725300C93AB2 /* SwiftUICryptoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICryptoAppApp.swift; sourceTree = "<group>"; };
 		1D392D4C265D725300C93AB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -186,6 +190,7 @@
 			children = (
 				955E29E32660139F00F7291C /* CoinModel.swift */,
 				1D411A40266BFCE00038634E /* StatisticModel.swift */,
+				1D1E1492266D41FF008766E5 /* MarketDataModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -195,6 +200,7 @@
 			children = (
 				95A60C722664E34B00EAD090 /* CoinDataService.swift */,
 				95A60C7A26675F0500EAD090 /* CoinImageService.swift */,
+				1D1E1494266D44CE008766E5 /* MarketDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -292,6 +298,7 @@
 				955A16B1266A027600269F2E /* SearchBarView.swift in Sources */,
 				95A60C702664DBA000EAD090 /* HomeViewModel.swift in Sources */,
 				1D392D4D265D725300C93AB2 /* ContentView.swift in Sources */,
+				1D1E1493266D41FF008766E5 /* MarketDataModel.swift in Sources */,
 				95A60C7F2668AE0C00EAD090 /* LocalFileManager.swift in Sources */,
 				1D411A43266BFDFF0038634E /* StatisticView.swift in Sources */,
 				1DAA2BB7265EB82000B7CF03 /* HomeView.swift in Sources */,
@@ -302,6 +309,7 @@
 				1D392D5B265D75CA00C93AB2 /* Color.swift in Sources */,
 				95A60C76266616B200EAD090 /* NetworkingManager.swift in Sources */,
 				1D411A45266C01950038634E /* HomeStatsView.swift in Sources */,
+				1D1E1495266D44CE008766E5 /* MarketDataService.swift in Sources */,
 				1DAA2BBD265EBD9900B7CF03 /* CircleButtonAnimationView.swift in Sources */,
 				95A60C7D266760F300EAD090 /* CoinImageViewModel.swift in Sources */,
 				95A60C6C2664B44400EAD090 /* PreviewProvider.swift in Sources */,
