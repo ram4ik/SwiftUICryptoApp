@@ -29,6 +29,7 @@
 		950510862679C800002D2EB1 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950510852679C800002D2EB1 /* String.swift */; };
 		952050422670941E0066C6F1 /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 952050402670941E0066C6F1 /* PortfolioContainer.xcdatamodeld */; };
 		95205044267094BB0066C6F1 /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95205043267094BB0066C6F1 /* PortfolioDataService.swift */; };
+		9545BF2B267B1DCC00419F6E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9545BF2A267B1DCC00419F6E /* SettingsView.swift */; };
 		955A16B1266A027600269F2E /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955A16B0266A027600269F2E /* SearchBarView.swift */; };
 		955A16B3266A083D00269F2E /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955A16B2266A083D00269F2E /* UIApplication.swift */; };
 		955E29E42660139F00F7291C /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955E29E32660139F00F7291C /* CoinModel.swift */; };
@@ -73,6 +74,7 @@
 		950510852679C800002D2EB1 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		952050412670941E0066C6F1 /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
 		95205043267094BB0066C6F1 /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
+		9545BF2A267B1DCC00419F6E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		955A16B0266A027600269F2E /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		955A16B2266A083D00269F2E /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		955E29E32660139F00F7291C /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 		1DAA2BB2265EB7DD00B7CF03 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				9545BF28267B1DA100419F6E /* Settings */,
 				1D518B6B2674C684006B41BD /* Detail */,
 				1DAA2BB8265EB8FE00B7CF03 /* Components */,
 				1DAA2BB3265EB7EF00B7CF03 /* Home */,
@@ -240,6 +243,22 @@
 				1DAA2BBC265EBD9900B7CF03 /* CircleButtonAnimationView.swift */,
 			);
 			path = CircleButton;
+			sourceTree = "<group>";
+		};
+		9545BF28267B1DA100419F6E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				9545BF29267B1DAD00419F6E /* Views */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		9545BF29267B1DAD00419F6E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9545BF2A267B1DCC00419F6E /* SettingsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		955E29E22660137F00F7291C /* Models */ = {
@@ -392,6 +411,7 @@
 				1DF76706267648CD00BB1AD1 /* CoinDetailDataService.swift in Sources */,
 				1DF767042676489700BB1AD1 /* DetailViewModel.swift in Sources */,
 				95205044267094BB0066C6F1 /* PortfolioDataService.swift in Sources */,
+				9545BF2B267B1DCC00419F6E /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
