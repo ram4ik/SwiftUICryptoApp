@@ -24,7 +24,9 @@ struct SwiftUICryptoAppApp: App {
                 NavigationView {
                     HomeView()
                         .navigationBarHidden(true)
-                }.environmentObject(vm)
+                }
+                .navigationViewStyle(StackNavigationViewStyle())
+                .environmentObject(vm)
                 
                 ZStack {
                     if showLaunchView {
