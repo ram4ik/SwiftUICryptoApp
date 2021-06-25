@@ -63,7 +63,19 @@ extension SettingsView {
             }
             .padding(.vertical)
             Link("Subscribe on YouTube 🥳", destination: youtubeURL)
-            Link("Support his coffee addiction ☕️", destination: coffeeURL)
+            /*
+             Guideline 3.1.1 - Business - Payments - In-App Purchase
+
+
+             We noticed that your app allows users to contribute donations to the development of your app with a mechanism other than the in-app purchase API, which is not appropriate for the App Store.
+
+             Next Steps
+
+             To resolve this issue, please revise your app to use the in-app purchase API to pay for this type of transaction. Please note that even though tipping another individual is optional, the tip is connected to or associated with the receipt of digital content or services in your app and must be purchased through in-app purchase in accordance with guideline 3.1.1 of the App Store Review Guidelines.
+
+             Please see attached screenshot for details.
+             */
+            //Link("Support his coffee addiction ☕️", destination: coffeeURL)
         }
     }
     
